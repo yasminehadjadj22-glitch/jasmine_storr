@@ -1,0 +1,67 @@
+# Netlify
+.netlify
+
+# Vercel
+.vercel
+
+# Dependencies
+node_modules
+pnpm-lock.yaml
+
+# Build
+dist
+build
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+# Scripts (not needed in production)
+scripts/
+
+# History
+history/
+historical_context.txt
+
+# Documentation
+DEPLOYMENT_GUIDE.md
+DUPLICATE_INVENTORY_FIX.md
+INVENTORY_FIX_GUIDE.md
+OPTIONAL_FIELDS_GUIDE.md
+AUTO_INVENTORY_GUIDE.md
+SHARING_GUIDE.md
+
+# Config files
+.vercelignore
+.gitignore
+biome.json
+tsconfig.*.json
+vite.config.dev.ts
